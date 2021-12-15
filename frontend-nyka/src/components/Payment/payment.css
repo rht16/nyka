@@ -1,0 +1,47 @@
+.info{
+    
+position: absolute;
+width: 71.25rem;
+height: 46px;
+left: 150px;
+top: 120px;
+
+background: #E0EDFF;
+border: 1px solid #C6DEFF;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.info_para{
+    
+position: static;
+width: 556px;
+height: 19px;
+left: 0px;
+top: 2px;
+
+/* Button/Regular */
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Primary/Fade black */
+
+color: #3F414D;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 13.5px 44px;
+
+}
