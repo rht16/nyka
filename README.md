@@ -42,4 +42,8 @@
 - `Additional Features` : Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
 
 ---
+### How to run this project 
+- `step-1`: Use git clone command to clone this project.
+- `step-2`: Next run npm install in your terminal to install all the dependencies required to run for this project.
+- `step-3`: Then run npm start to start this project. 
 
