@@ -25,6 +25,21 @@
 - `Mongoose`
 - `Express`
 ---
-### 
 
+### Pages & Features :point_down:
+
+- `Home Page`: User can see the varoius products and many brands.
+- `Signup Page`: User details validated directly from backend.
+- `Login Page`: User authentication to check whether user email and password match with details existing in the database.
+- `Skin Page`: User can see all the skin related brands and the products related to the types of their skin.
+- `Skin Products Page` : User can see and buy the skin related products.
+- `Hair Page` : User can see the various Hair related brand names and expert tips and advice for the hair
+- `Cart Page`: User can see or remove products added in the cart.
+- `Wishlist Page`: Users can add or remove products to the wishlist.
+- `Checkout Page`: Users can add the delivery address which will be stored to the backend.
+- `Payment Page`:  Users can add their payment details and also avail for discount.
+- `Order Successful Page` : cart gets empty and products are added to my orders page.
+- `Additional Features` : Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
+
+---
 
