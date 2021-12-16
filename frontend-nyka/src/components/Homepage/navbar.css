@@ -1,0 +1,117 @@
+.main-navbar {
+  width: 100vw;
+  height: 157px;
+  border: 1px solid black;
+  margin: auto;
+}
+.upper-navbar {
+  width: 100vw;
+  display: flex;
+  height: 40px;
+
+  background-image: url("https://adn-static1.nykaa.com/media/wysiwyg/2021/topstrips15.jpg");
+}
+
+.top-p {
+  position: relative;
+
+  height: 16px;
+
+  margin-left: 100px;
+  margin-top: 12px;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #3f414d;
+}
+
+.mobile-app {
+  margin-left: 386px;
+  margin-top: 4px;
+}
+.get-app {
+  /* position: static; */
+
+  height: 16px;
+  /* right: 0px; */
+  /* top: 4px; */
+  margin-top: 10px;
+  margin-left: 10px;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+
+  align-items: center;
+
+  text-transform: capitalize;
+  color: #3f414d;
+}
+.line {
+  width: 0px;
+  height: 16px;
+  margin-top: 10px;
+  border: 1px solid #3f414d;
+  margin-left: 12px;
+}
+
+.nav {
+  margin-left: 20px;
+}
+.middle-navbar {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+ul li {
+  /* display :flex; */
+  /* margin-top:24px; */
+  margin-left: 32px;
+  text-transform: uppercase;
+}
+.lower-nav {
+  margin-left: 100px;
+  /* border:1px solid black; */
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.offer {
+  background: linear-gradient(270deg, #a90880 0%, #a90880 21.35%, #f62579 100%);
+  background: linear-gradient(270deg, #a90880 0%, #a90880 21.35%, #f62579 100%);
+}
+.search {
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 8px;
+  height: 34px;
+  left: 839.5px;
+  right: 368.5px;
+  top: 16px;
+  margin-left: 20px;
+  margin-top: 14px;
+  background: #f3f3f3;
+  border: 0.5px solid #8c8d94;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
