@@ -28,12 +28,12 @@
 
 ### Pages & Features :point_down:
 
-- `Home Page`: User can see the varoius products and many brands.
+- `Home Page`: User can see the various products and many brands.
 - `Signup Page`: User details validated directly from backend.
 - `Login Page`: User authentication to check whether user email and password match with details existing in the database.
-- `Skin Page`: User can see all the skin related brands and the products related to the types of their skin.
+- `Skin Page`: User can see all the skin related brands, products related to their type of the skin and also see the expert guidance on the skin. 
 - `Skin Products Page` : User can see and buy the skin related products.
-- `Hair Page` : User can see the various Hair related brand names and expert tips and advice for the hair
+- `Hair Page` : User can see the various Hair related brand names and expert tips and advice for the hair.
 - `Cart Page`: User can see or remove products added in the cart.
 - `Wishlist Page`: Users can add or remove products to the wishlist.
 - `Checkout Page`: Users can add the delivery address which will be stored to the backend.
