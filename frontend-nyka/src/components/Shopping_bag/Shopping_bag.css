@@ -1,0 +1,209 @@
+
+/* shopping bag css */
+.main-div-shopping-bag {
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    background: #E5E5E5;
+    
+}
+.individual-items {
+    display:flex;
+    flex-direction: column;
+    
+}
+.add-more-items {
+    text-align: center;
+    background: #ffffff;
+    margin-top:10px;
+    padding-top:10px;
+}
+.pink-text {
+    
+    color:#FC2779;
+    font-weight:600;
+}
+
+.head-img {
+    display:flex;
+    background-color: #ffffff;
+    margin-top:10px;
+    height:42px;
+    padding:5px;
+
+}
+.bag-heading {
+    
+    background-color: #ffffff;
+    margin-left:120px;
+    font-weight: 600;
+}
+
+.left-arrow {
+    width:12px;
+    height:20px;
+    text-align:left;
+    margin-left:10px;
+    
+}
+.add-icon {
+    width:14px;
+    height:14px;
+    margin-top:-5px;
+}
+ 
+
+ /* item_bag css */
+
+ .parent-container {
+     width:380px;
+     
+     
+     background:#ffffff;
+     /* border:2px solid red; */
+     margin-top:10px;
+     padding:5px;
+
+ }
+ .children-container {
+   
+     width:360px;
+     height:90px;
+     margin-left:12px;
+     margin-top:10px;
+     /* border:2px solid blue; */
+     display:flex;
+      border-bottom: 2px solid #E5E5E5; 
+
+ }
+ 
+.image-container  > img {
+    width:90px;
+    height:88px;
+    /* border:2px solid green; */
+
+}
+.name-container {
+    width:260px;
+    padding-top:10px;
+    height:90px;
+    /* border:2px solid yellow;  */
+    color:black;
+    margin-left:5px;
+    font-size:14px;
+
+
+}
+.icon-container {
+    width:18px;
+    margin-left:10px;
+    padding-top: 10px;
+
+}
+
+.price-quantity-container {
+    width:380px;
+
+    display:flex;
+    justify-content:space-between;
+    /* border:2px solid orangered; */
+    
+}
+.marg-left {
+    margin-left:10px;
+}
+.fw-text {
+    font-weight: 600;
+    margin-right:14px;
+}
+.down-arrow {
+    width:12px;
+    height:8px;
+}
+.delete-icon {
+    width:12px;
+    height:16px;
+}
+
+
+/* payment detail css */
+
+.payment-details-flex {
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    border:2px solid green; 
+    background: #ffffff;
+    height:300px;
+    
+}
+.payment-heading {
+    background: #E5E5E5;
+    text-align: center;
+    font-weight: 600;
+    height:46px;
+    padding:5px;
+
+}
+.flex-payment {
+    display:flex;
+    justify-content: space-between;
+    margin-left:10px;
+    margin-right:15px;
+    margin-top:10px;
+    background: #ffffff;
+}
+
+.bag-discount {
+    color:green;
+
+}
+.grandi {
+    margin-left:10px;
+}
+.coupon-box {
+    display:flex;
+    justify-content: space-between;
+    margin-left:10px;
+    margin-right:15px;
+    margin-top:10px;
+    background-color: #E5E5E5;
+    padding:5px
+
+}
+
+
+
+
+
+
+
+/* total pay css */
+.bag-final-flex {
+    width:400px;
+    height:50px;
+    
+    display:flex;
+    justify-content:space-between ;
+    margin-top:90px;
+}
+
+.grand-total-final {
+    width:200px;
+    height:50px;
+    border-top:1px solid black;
+    background: #ffffff;
+}
+.proceed-button {
+    width:200px;
+    color:white;
+    background-color: #FC2779;
+    height:50px;
+}
+.right-arrow-icon {
+    width:8px;
+    height:12px;
+    margin-top: -5px;
+}
+
+
