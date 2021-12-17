@@ -5,8 +5,8 @@ import {CartPage} from "./components/productsPage/CartPage"
 function App() {
   return (
     <div className="App">
-  <Home/>
-  {/* <CartPage/> */}
+  {/* <Home/> */}
+  <CartPage/>
     </div>
 
   );
