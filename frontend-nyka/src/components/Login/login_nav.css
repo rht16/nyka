@@ -24,7 +24,7 @@ left: 0%;
 right: 0%;
 top: 10%;
 bottom: 10%;
-
+/* visibility: hidden; */
 /* Button/Semibold */
 
 font-family: 'Source Sans Pro', sans-serif;;
@@ -47,7 +47,12 @@ flex: none;
 order: 0;
 flex-grow: 0;
 margin: 8px 0px;
+
 }
+/* .second_box:hover{
+    visibility: visible;
+} */
+
 
 .second_box > p{
     margin-left: 0.4rem;

@@ -6,10 +6,14 @@ left: 20px;
 top: 250px;
 
 /* Primary/Petal pink */
-
+/* visibility: hidden; */
 background: #FC2779;
 margin-top: 22px;
 }
+/* 
+.btn_checking{
+   
+} */
 
 .next > button{
     

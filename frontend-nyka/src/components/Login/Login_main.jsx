@@ -5,32 +5,38 @@ import facebook from '../../Images/facebook.svg'
 import google from '../../Images/google.svg'
 import  { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-// import { Form, Alert } from "react-bootstrap";
-// import { Button } from "react-bootstrap";
-// import GoogleButton from "react-google-button";
 import { useUserAuth } from "../../context/UserAuthContext";
 export const Login_main = ()=>{
     const [error, setError] = useState("");
+    const [check, setCheck] = useState({visiblity:"hidden"});
     const { logIn, googleSignIn } = useUserAuth();
     const navigate = useNavigate();
     const handleGoogleSignIn = async (e) => {
       e.preventDefault();
       try {
         await googleSignIn();
-        console.log("yes");
+        
         navigate("/payment");
       } catch (error) {
         console.log(error.message);
       }
     };
 
+
+    function changeBackground() {
+      
+        // setCheck(  e.target.style.visiblity = "visible")
+        console.log("yes");
+
+      }
+    
     return (
         <div className="container">
             <div className="first_box12">
                 <div className="first_box1">Login/Regiseter</div>
             </div>
             <div className="second_login">
-                <div className="second_login_box1">Login/Register</div>
+                <div className="second_login_box1" onClick={changeBackground}>Login/Register</div>
                 <div className="second_login_bar"></div>
                 <div className="right">
                     <div >

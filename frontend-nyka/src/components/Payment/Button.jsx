@@ -5,7 +5,7 @@ export const Button = ({type})=> {
     return (
         <div>
              <div className="next">
-                    <button>{type} </button>
+                    <button className="btn_checking">{type} </button>
             <img src={greater} alt="" />
                 </div>
         </div>

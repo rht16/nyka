@@ -477,6 +477,11 @@ margin-top:-15px;
 margin-left: 20px;
 }
 
+.btn_vis{
+   visibility: hidden;
+}
+
+
 .number_inp1{
     position: static;
 width: 426px;
