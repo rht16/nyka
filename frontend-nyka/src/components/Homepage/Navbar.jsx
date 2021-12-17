@@ -1,6 +1,7 @@
 import {React} from "react";
 
 import "./navbar.css"
+import {GrSearch} from "react-icons/all"
 
 const Navbar=()=>{
 
@@ -31,7 +32,10 @@ const Navbar=()=>{
     <li>Nykaa fashion</li>
     <li>Beauty advice</li>
     <li>nykka network</li>
-   <input type="text" placeholder="Search on Nykaa"  className="search"/>
+    <div>
+      <input type="text" placeholder="Search on Nykaa"  className="search" ></input>
+    </div>
+  
                    
                     <li><img src="/wishlist.svg"/></li>
                     <li><img src="/profile.svg"/></li>
