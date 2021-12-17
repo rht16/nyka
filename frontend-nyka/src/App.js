@@ -5,10 +5,12 @@ import { Routes, Route } from "react-router-dom";
 import ProtectedRoute from "./components/Login/ProctedRoute";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import {Login} from './components/Login/Login'
+import {CartPage} from "./CartPage"
+
 function App() {
   return (
 <div>
-<UserAuthContextProvider>
+{/* {/* <UserAuthContextProvider>
             <Routes>
               <Route
                 path="/payment"
@@ -20,8 +22,10 @@ function App() {
               />
               <Route path="/" element={<Login />} />
               {/* <Route path="/signup" element={<Signup />} /> */}
-            </Routes>
-          </UserAuthContextProvider>
+            {/* </Routes> */}
+          {/* // </UserAuthContextProvider> */}  
+          <CartPage/>
+
 </div>
   );
 }
