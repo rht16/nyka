@@ -1,0 +1,49 @@
+.next{
+    position: absolute;
+width: 426px;
+height: 50px;
+left: 20px;
+top: 250px;
+
+/* Primary/Petal pink */
+
+background: #FC2779;
+margin-top: 22px;
+}
+
+.next > button{
+    
+position: absolute;
+width: 203px;
+height: 18px;
+left: 156px;
+top: 16px;
+
+/* Button/Semibold 10 ls */
+
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+background: none;
+border: none;
+color: #FFFFFF;
+
+}
+
+.next > img{
+    position: absolute;
+left: 65%;
+right: -0.31%;
+top: 37%;
+bottom: 0%;
+
+border-radius: 1px;
+}

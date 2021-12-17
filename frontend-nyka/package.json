@@ -9,10 +9,15 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "firebase": "^9.6.1",
     "react": "^17.0.2",
     "react-alice-carousel": "^2.5.1",
     "react-dom": "^17.0.2",
+<<<<<<< HEAD
     "react-icons": "^4.3.1",
+=======
+    "react-router-dom": "^6.1.1",
+>>>>>>> 18cc1cc5283d14e34f45eeaeea226858117ab9b4
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "styled-components": "^5.3.3",
