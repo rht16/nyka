@@ -1,20 +1,18 @@
 
 /* shopping bag css */
-.main-div-shopping-bag1 {
-    width:400px;
-    display:flex;
-    /* margin-top: 457px; */
-    flex-direction: column;
+.main-div-shopping-bag_login {
+    /* width:400px; */
+    /* display:flex; */
+    /* height: 220px; */
+    /* flex-direction: column; */
     background: #E5E5E5;
-    /* position: fixed; /* Stay in place */
-    /* z-index: 10; */ 
-    /* Enable scroll if needed */
- 
+    margin-top: -69px;
+    
 }
-.individual-items {
+.individual-items_login {
     display:flex;
     flex-direction: column;
-    margin-top: -23px;
+    
 }
 .add-more-items {
     text-align: center;
@@ -31,9 +29,13 @@
 .head-img {
     display:flex;
     background-color: #ffffff;
-    margin-top:10px;
+  
     height:42px;
     padding:5px;
+    width: 379px;
+
+    margin-top: -13px;
+    margin-left: 9px;
 
 }
 .bag-heading {
@@ -55,11 +57,15 @@
     height:14px;
     margin-top:-5px;
 }
+
+.product_div_login{
+    margin-top:1px;
+}
  
 
  /* item_bag css */
 
- .parent-container {
+ .parent-container_login {
      width:380px;
      margin: auto;
      /* margin-top: 10px; */
@@ -71,11 +77,11 @@
 
      background:#ffffff;
      /* border:2px solid red; */
-     margin-top:10px;
+     margin-top:85px;
      padding:5px;
 
  }
- .children-container {
+ .children-container_login {
    
      width:360px;
      height:90px;
@@ -87,7 +93,7 @@
 
  }
  
-.image-container  > img {
+.image-container_login  > img {
     width:90px;
     height:88px;
     /* border:2px solid green; */
@@ -145,10 +151,7 @@
     border:2px solid green; 
     background: #ffffff;
     height:300px;
-    /* margin-top: 600px;
-    position: fixed;
-    z-index: 1;
-     */
+    
 }
 .payment-heading {
     background: #E5E5E5;
@@ -219,8 +222,28 @@
     margin-top: -5px;
 }
 
-.total_shopping_val{
-    margin-left: 11px;
-    margin-top: -356px;
-    position: absolute;
+.cart_details_main_div{
+    width: 400px;
+    height: 239px;
+    background: #E5E5E5;
+    margin: auto;
+    margin-top: -39px;
 }
+
+.cart_details_login {
+    width: 376px;
+    height: 178px;
+    margin: auto;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 25%);
+    margin-top: 50px;
+    background: #ffff;
+    position: absolute;
+    margin-left: 12px;
+  }
+
+  .shopping_bag_loginpage{
+      position:absolute;
+      top: 95px;
+  }
+
+

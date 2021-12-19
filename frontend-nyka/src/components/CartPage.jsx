@@ -5,15 +5,27 @@ import { ProductDetails } from "./ProductDetails";
 import easyreturn from "../components/Images/easyreturnpolicy.svg";
 import Rating from "./Rating";
 import locationImg from "../components/Images/locationnn.svg";
-
+import {Navbar} from "../components/Homepage/Navbar"
+import {ShoppingBag} from "./Shopping_bag/Shopping_bag"
 export const CartPage = () => {
   var getProduct = [];
-
+  var details_from_local = []
   getProduct.push(JSON.parse(localStorage.getItem("productsItems")));
-  console.log(getProduct);
+  details_from_local.push(JSON.parse(localStorage.getItem("card")));
+  // console.log(details_from_local);
+  // console.log(JSON.parse(localStorage.getItem("card")));
+const handleAddToCart = (data) => {
+  if (localStorage.getItem("card") === null) {
+    localStorage.setItem("card", JSON.stringify([]));
+  }
 
+  let card_data = JSON.parse(localStorage.getItem("card"));
+  card_data.push(data);
+  localStorage.setItem("card", JSON.stringify(card_data));
+}
   return (
     <>
+    <Navbar />
       <div className="product-page">
         {getProduct.map((p) => (
           <div className="product-div">
@@ -59,7 +71,7 @@ export const CartPage = () => {
               <p className="mrp">MRP:</p>{" "}
               <p className="rupees">&#8377;{p.price}</p>
               <p className="taxes">Inclusive of all taxes</p>
-              <button className="addBag">add to bag</button>
+              <button className="addBag" onClick={(el)=>{handleAddToCart(getProduct)}}>add to bag</button>
               <div className="line"></div>
               <img className="deliveryTag" src={locationImg} alt="delivery" />
               <p className="deliveryoptions">delivery options </p>
@@ -81,6 +93,7 @@ export const CartPage = () => {
       </div>
       <ProductDescription />
       <ProductDetails />
+      {/* <ShoppingBag /> */}
     </>
   );
 };

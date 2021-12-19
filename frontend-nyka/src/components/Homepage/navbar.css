@@ -1,25 +1,17 @@
 .main-navbar {
-  width: 100vw;
+  width: 100%;
   height: 157px;
-  border: 1px solid black;
-  margin: auto;
+  box-shadow: 0px 1px 3px 0px #00000040;
 }
 .upper-navbar {
-  width: 100vw;
   display: flex;
   height: 40px;
-
-  background-image: url("https://adn-static1.nykaa.com/media/wysiwyg/2021/topstrips15.jpg");
+   background-image: url("https://adn-static1.nykaa.com/media/wysiwyg/2021/topstrips15.jpg");
 }
-
 .top-p {
-  position: relative;
-
   height: 16px;
-
   margin-left: 100px;
   margin-top: 12px;
-
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -28,42 +20,32 @@
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-
-  color: #3f414d;
+  color: #3F414D;
 }
-
 .mobile-app {
   margin-left: 386px;
   margin-top: 4px;
 }
 .get-app {
-  /* position: static; */
-
   height: 16px;
-  /* right: 0px; */
-  /* top: 4px; */
   margin-top: 10px;
   margin-left: 10px;
-
-  font-family: "Source Sans Pro", sans-serif;
+   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 16px;
-
-  align-items: center;
-
-  text-transform: capitalize;
-  color: #3f414d;
+   align-items: center;
+   text-transform: capitalize;
+  color: #3F414D;
 }
-.line {
+.line-nav {
   width: 0px;
   height: 16px;
   margin-top: 10px;
-  border: 1px solid #3f414d;
+  border: 1px solid #3F414D;
   margin-left: 12px;
 }
-
 .nav {
   margin-left: 20px;
 }
@@ -78,27 +60,52 @@ ul {
   font-weight: 600;
   font-size: 15px;
   line-height: 19px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  margin-top:16px;
 }
 ul li {
-  /* display :flex; */
-  /* margin-top:24px; */
   margin-left: 32px;
-  text-transform: uppercase;
-}
+ }
 .lower-nav {
   margin-left: 100px;
-  /* border:1px solid black; */
   font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+   align-items: center;
+  color: #818181;
+  }
+.lower-nav ul li {
+  font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+  align-items: center;
+  color: #818181;
 }
-
+.account{
+  width: 50px;
+  height: 18px;
+  margin: auto;
+  font-family: "Source Sans Pro",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #00141F;
+  margin-right: 66px;
+}
+.usercart{
+  height: 21px;
+width: 18px;
+margin-left: 9px;
+margin-top: 5px;
+border-radius: 0px;
+}
 .offer {
-  background: linear-gradient(270deg, #a90880 0%, #a90880 21.35%, #f62579 100%);
-  background: linear-gradient(270deg, #a90880 0%, #a90880 21.35%, #f62579 100%);
+  background: linear-gradient(270deg, #A90880 0%, #A90880 21.35%, #F62579 100%);
+   margin-left: 34px;
+    padding: 4px;
+    color: #FFFFFF;
 }
 .search {
   flex-direction: row;
@@ -110,8 +117,12 @@ ul li {
   top: 16px;
   margin-left: 20px;
   margin-top: 14px;
-  background: #f3f3f3;
-  border: 0.5px solid #8c8d94;
+  background: #F3F3F3;
+  border: 0.5px solid #8C8D94;
   box-sizing: border-box;
   border-radius: 2px;
+}
+.usercart2{
+  margin-top: -11px;
+  margin-left: -23px;
 }

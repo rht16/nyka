@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import "./skin.css";
 import Slider from "react-slick";
 import img1 from "./Images/skin.svg";
@@ -50,6 +51,7 @@ import now4 from "./Images/now4.svg";
 import beauty1 from "./Images/beauty1.svg";
 import beauty2 from "./Images/beauty2.svg";
 import beauty3 from "./Images/beauty3.svg";
+import {Navbar} from "../components/Homepage/Navbar"
 
 function Skin() {
   var settings = {
@@ -87,7 +89,8 @@ function Skin() {
     ],
   };
   return (
-    <div>
+    <div >
+      <Navbar />
       <Slider {...settings}>
         <div>
           <img className="slider_image" src={img1} alt="jdslkjf" />
@@ -218,8 +221,9 @@ function Skin() {
         <h4>FEATURED BRANDS</h4>
       </div>
       <div className="featured-brand">
-        <div>
+        <div> <Link to="/skin/botique" >
           <img src={brand1} alt="" />
+          </Link>
         </div>
         <div>
           <img src={brand2} alt="" />

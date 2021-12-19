@@ -7,6 +7,9 @@ import careImg2 from "./Images/care2.svg";
 import careImg3 from "./Images/care3.svg";
 import "./multi.css";
 
+
+
+
 export default class SkinCare extends Component {
   render() {
     var settings = {

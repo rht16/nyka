@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useUserAuth } from "../../context/UserAuthContext";
 export const Login_main = ()=>{
     const [error, setError] = useState("");
-    const [check, setCheck] = useState({visiblity:"hidden"});
+    // const [check, setCheck] = useState({visiblity:"hidden"});
     const { logIn, googleSignIn } = useUserAuth();
     const navigate = useNavigate();
     const handleGoogleSignIn = async (e) => {
@@ -23,12 +23,12 @@ export const Login_main = ()=>{
     };
 
 
-    function changeBackground() {
+    // function changeBackground() {
       
-        // setCheck(  e.target.style.visiblity = "visible")
-        console.log("yes");
+    //     // setCheck(  e.target.style.visiblity = "visible")
+    //     console.log("yes");
 
-      }
+    //   }
     
     return (
         <div className="container">
@@ -36,7 +36,7 @@ export const Login_main = ()=>{
                 <div className="first_box1">Login/Regiseter</div>
             </div>
             <div className="second_login">
-                <div className="second_login_box1" onClick={changeBackground}>Login/Register</div>
+                <div className="second_login_box1">Login/Register</div>
                 <div className="second_login_bar"></div>
                 <div className="right">
                     <div >

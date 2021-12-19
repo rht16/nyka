@@ -1,22 +1,50 @@
 import "./Shopping_bag.css"
-
-
 import downarrow from "./bag_photos/down_arrow.png"
-import deleteicon from "./bag_photos/delete_icon.png"
+import deleteicon from "./bag_photos/delete_icon.png";
+import{useState , useEffect} from "react";
 function ItemInBag({data}) {
-  
-    console.log(data)
+
+    // const [data,setData]=useState([]);
+//     var details_from_local1 =[]
+//     details_from_local1.push(JSON.parse(localStorage.getItem("card")));
+//     let details_from_local1 = JSON.parse(localStorage.getItem("card"));
+//     setData(details_from_local1)
+//   console.log(details_from_local1);
+
+//   useEffect(() => {
+//     let details_from_local1 = JSON.parse(localStorage.getItem("card"));
+//     setData(details_from_local1)
+//     console.log(details_from_local1);
+//   }, [])
     return (
-        <>
-       {data.map( e => 
-       <div > 
+      
+
+
+// {/* {data.map((dataa)=>{
+//     return(
+//         <div>
+//         <div>{dataa.product_name}</div>
+//         </div>
+//     )
+// })} */}
+
+
+
+
+
+
+
+
+        
+ 
+        <div > 
             <div className = "parent-container">
                 <div className = "children-container">
-                <div className = "image-container"><img src = {e.product_image} />
+                <div className = "image-container"><img src = {data.product_image} />
                     
                 </div>
                 <div className = "name-container">
-                    <p>{e.product_name}</p>
+                    <p>{data.product_name}</p>
 
                     <p>1200ml</p>
 
@@ -31,7 +59,7 @@ function ItemInBag({data}) {
 
                 <div className="price-quantity-container">
                    <div className ="marg-left">Quantity : {1} <img className = "down-arrow" src = {downarrow} / ></div>
-                   <div className = "mrp fw-text">{e.mrp}</div> 
+                   <div className = "mrp fw-text">{data.mrp}</div> 
                    
                 </div>
 
@@ -39,12 +67,16 @@ function ItemInBag({data}) {
        
        
         </div>
+     
+        
+     
+         
+         
 
-       )}
 
         
-        </>
-    )
+);
+    
 
 
 }

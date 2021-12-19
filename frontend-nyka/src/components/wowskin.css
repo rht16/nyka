@@ -86,12 +86,12 @@
   font-family: Source Sans Pro;
 }
 
-.mrp {
+.mrp_pooja {
   color: rgba(140, 141, 148, 1);
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
-.mrp > span {
+.mrp_pooja > span {
   text-decoration: line-through;
   color: rgba(140, 141, 148, 1);
   margin-left: 3px;
@@ -115,7 +115,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.bar {
+.bar_1 {
   margin-top: -20px;
   color: #a7a7a7;
 }

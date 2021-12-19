@@ -3,25 +3,22 @@ import { TotalPay } from "./Total_pay"
 import "./Shopping_bag.css"
 
 function AmountDetails({data}) {
-let total = 0
-// let details_from_local1 = JSON.parse(localStorage.getItem("card"));
-// console.log("data:"+ details_from_local1);
+let total = 1225
 
     return (
         <>
         <div>
 
-        {/* {details_from_local1.map( (e) =>  ( */}
-           total+= Number(data.price),
+        {/* {data.map( (e) =>  ( */}
             <div className = "payment-details-flex">
                 <div className = "payment-heading" > Payment details</div>
                 <div className = "flex-payment">
                     <div>Bag Total</div>
-                    <div>{data.length}</div>
+                    <div></div>
                 </div>
                 <div className = "flex-payment">
                     <div className ="bag-discount">Bag Discount</div>
-                    <div>0</div>
+                    <div></div>
                 </div>
                 <div className = "flex-payment">
                     <div>Sub Total</div>
@@ -41,7 +38,7 @@ let total = 0
                 </div>
                
             </div>
-         {/* ))}  */}
+        {/* ))} */}
 
         </div>
 {/* 

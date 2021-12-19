@@ -12,10 +12,10 @@ export const Debit =()=>{
             <input type="text" className="debit_card" placeholder="CARD NUMBER" />
             <p className="expiray">EXPIRY</p>
             <div className="credentials">
-            <input type="number" className="date" placeholder="Month     / Year" />
+            <input type="number" className="date1" placeholder="Month     / Year" />
             <input type="text" className="cvv" placeholder="CVV" />
             <img src={credit} alt="" className="credit"/>
-            <p >Last 3 Digits at the back of the Card</p>
+            <p className="last_3_digit">Last 3 Digits at the back of the Card</p>
             </div>
             <div className="save_box">
                 {/* <div className="save">
@@ -25,7 +25,7 @@ export const Debit =()=>{
                 <p>Save this card for future</p>
             </div>
             <Button type={"PAY ₹269 NOW "}/>
-                <Total />
+                {/* <Total /> */}
         </div>
     )
 }

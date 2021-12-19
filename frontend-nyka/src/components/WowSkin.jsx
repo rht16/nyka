@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom"
 import { productData } from "../data/data.js";
 import bqbanner from "../components/Images/Biotiquebanner.svg";
 import "./wowskin.css";
@@ -9,25 +10,35 @@ import sortImg from "../components/Images/sortoptions.svg";
 import SortBy from "../components/Images/SortBy.svg";
 import pageinfo from "../components/Images/pagination.svg";
 import wishlistImg from "../components/Images/wishlist.svg";
+import {Navbar} from "../components/Homepage/Navbar"
+
+
 
 function WowSkin() {
   const [isTrue, setIstrue] = useState(false);
   //console.log(isTrue);
   const handleChange = (data) => {
-    console.log(data);
+    //console.log(data);
     setIstrue(true);
-    localStorage.setItem("productsItems", JSON.stringify(data));
-    // if (localStorage.getItem("card") === null) {
-    //   localStorage.setItem("card", JSON.stringify([]));
-    // }
+    //localStorage.setItem("productsItems", JSON.stringify(data));
+    if (localStorage.getItem("card") === null) {
+      localStorage.setItem("card", JSON.stringify([]));
+    }
 
-    // let card_data = JSON.parse(localStorage.getItem("card"));
-    // card_data.push(data);
-    // localStorage.setItem("card", JSON.stringify(card_data));
+    let card_data = JSON.parse(localStorage.getItem("card"));
+    card_data.push(data);
+    localStorage.setItem("card", JSON.stringify(card_data));
   };
 
+  const handleCart=(data)=>{
+    localStorage.setItem("productsItems", JSON.stringify(data));
+    console.log(data);
+  }
+
   return (
+
     <div style={{ width: "100%" }}>
+      <Navbar />
       <div className="list-home-brand">
         <div>Home</div>
         <div>
@@ -55,22 +66,24 @@ function WowSkin() {
         </div>
         <div className="right_container">
           {productData.map((product, id) => (
-            <div className="p_details" key={id}>
+            <div className="p_details" key={id} >
               <p className="features">FEATURED</p>
-              <img src={product.product_image} alt="" />
+              <Link to="/details">
+              <img src={product.product_image} alt="" onClick={(el)=>handleCart(product)}/>
+              </Link>
               <div className="prod_name">
                 <p>{product.product_name}</p>
               </div>
               <div className="all_price">
                 <div>
-                  <p className="mrp">
+                  <p className="mrp_pooja">
                     MRP:<span>{product.mrp}</span>
                   </p>
                 </div>
                 <div>
                   <p className="price_product">₹{product.price}</p>
                 </div>
-                <div className="bar">|</div>
+                <div className="bar_1">|</div>
                 <div>
                   <p className="off">{product.off}</p>
                 </div>

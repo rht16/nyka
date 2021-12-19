@@ -4,6 +4,7 @@ import './payment.css'
 import info from '../../Images/info.svg'
 import {Method} from './Method.jsx'
 import {Debit} from './Debit.jsx'
+import {Cart} from '../Login/cart'
 export const Payment = ()=>{
     return (
         <div>
@@ -15,6 +16,10 @@ export const Payment = ()=>{
             <div className="method">CHOOSE PAYMENT METHOD</div>
             <Method />
             <Debit />
+            <div className="cart_page_payment">
+            <Cart />
+            </div>
+        
         </div>
     )
 }
