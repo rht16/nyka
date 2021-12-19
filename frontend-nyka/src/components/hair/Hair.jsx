@@ -128,47 +128,50 @@ function Hairpage() {
 
         <h4 className = "mt-5 text-center">BRANDS YOU WILL LOVE</h4>
 
-             <Container className = "brands-love mt-4">
+             
+                 <Container className = "mt-4">
                 
         <Row>
            
             <Col sm = {6} md = {4} lg = {4}>
-                <img src= {lorels1} class="img-fluid" />
+                <img src= {lorels1} className ="img-fluid" />
                 
             </Col>
               <Col sm = {6} md = {4} lg = {4}>
-                <img src= {hair2} class="img-fluid" />
+                <img src= {hair2} className ="img-fluid" />
                 
             </Col>
               <Col sm = {6} md = {4} lg = {4}>
-                <img src= {new3} class="img-fluid" />
+                <img src= {new3} className ="img-fluid" />
             </Col>
+      </Row>
+            <Row className = "mt-4">
+        <Col sm = {6} md = {4} lg = {{span:4, offset: 2}}>
+                <img src= {photo4} className ="img-fluid" />
+                
+            </Col>
+              <Col sm = {6} md = {4} lg = {4}>
+                <img src= {wow} className ="img-fluid" />
+            </Col>
+        
         </Row>
-        <div class = "row mt-4">
-        <div class="col-sm-6 col-md-4 col-lg-4 offset-lg-1">
-
-            <img src = {photo4} class = "img-fluid"/>
-        </div>
-
-        <div class="col-sm-6 col-md-4 col-lg-4 offset-lg-1">
-
-            <img src = {wow} class = "img-fluid" />
-        </div>
-           
-            
-            
-        </div>
         <Row className = "mt-5">
-            <Col >
-                <img src = {hairbanner}  class = "img-fluid" /> 
+            <Col sm = {6} md = {4} lg = {12} >
+                <img src = {hairbanner}  className = "img-fluid" /> 
             </Col>
         </Row>
         </Container>
+  
 
 
-        <div className="brand-heading-love">
+
+                
+      
+
+
+        
         <h4 className = "text-center mt-5">SHOP BY CATEGORY</h4>
-      </div>
+      
       
           
 
