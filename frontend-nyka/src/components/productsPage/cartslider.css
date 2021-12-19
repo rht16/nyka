@@ -1,0 +1,23 @@
+.mainslider {
+    width: 100%;
+    margin: auto;
+    margin-top: -7px;
+  }
+  .slider-1 {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .sliderslider1 {
+    width: 100%;
+    background: #ffffff;
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25); */
+    height:400px;
+  }
+  
+  .slick-arrow::before,
+  .slick-prev::after {
+    color: black;
+    background-color: #ffffff;
+  }
+  
