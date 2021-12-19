@@ -15,12 +15,12 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-rating-stars-component": "^2.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^1.1.2",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "set PORT= 3002 && react-scripts start",
