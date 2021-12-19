@@ -1,0 +1,249 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+.order-main-div {
+    width:1440px;
+    height:310px;
+    display:flex; 
+    flex-direction: column; 
+    /* border:2px ridge black; */
+    margin:auto;
+    text-align: center;
+}
+
+body {
+    color: #3F414D;
+
+}
+
+.image-64 {
+    width:64px;
+    height:64px;
+    margin-bottom:30px;
+
+}
+.black-i {
+    color:black;
+    font-weight: 500;
+}
+.order-font {
+    font-size:14px;
+    color: #818181;
+
+}
+
+.amount-butto {
+    background-color: #E1E1E1;
+    color:#3F414D;
+    font-size:16px;
+    font-weight:600;
+    width:174px;
+    height:32px;
+    
+}
+.fourteen_pix {
+    color:#FC2779;
+
+}
+.order-second-main-div {
+    width:1440px;
+    background:#F3F3F3;
+    /* border:1px solid black; */
+    
+}
+.second-order-content {
+    width:1240px;
+    margin:auto;
+    /* border: 2px solid orangered; */
+    margin-top:40px;
+    display:flex;
+    
+
+}
+.updates {
+    font-weight:600;
+}
+.email-phone {
+    /* border:2px solid black; */
+    background: #FFFFFF;
+    width:760px;
+    height:80px;
+    display:flex;
+    padding:5px;
+    align-items: center;
+    text-align: center;
+    margin-bottom:16px;
+    
+    
+
+}
+.flexi {
+    display:flex;
+    width:340px;
+    margin-left: 30px;
+    
+}
+.item-in-bag-div {
+    width:760px;
+    background: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+
+    
+}
+.order-right-div {
+    margin-top:50px;
+    margin-left:30px;
+}
+.order-left-div {
+    margin-top:50px;
+}
+.order-text-margi {
+    margin-bottom:20px;
+}
+
+
+
+/* individual item css */
+
+
+
+
+ 
+.order-children-container {
+   
+    width:678px;
+    height:120px;
+    margin-left:12px;
+    margin-top:10px;
+    /* border:2px solid blue;  */
+    display:flex;
+    flex-direction:row;
+    
+     /* border-bottom: 2px solid #E5E5E5;  */
+
+}
+
+.email-imag {
+    width:20px;
+    height:14.4px;
+    margin-top:5px;
+}
+.phone-imag {
+    width:20px;
+    height:20px;
+    margin-top:3px;
+}
+.margi-le {
+    margin-left:15px;
+}
+.order-image-container  > img {
+   width:100px;
+   height:100px;
+   /* border:2px solid green;  */
+   margin-top:0px;
+   padding-top:0px;
+
+}
+.order-parent-container {
+    width:690px;
+    padding:5px;
+    margin-left:10px;
+}
+.order-name-container {
+    width:540px;
+
+    height:100px;
+    /* border:2px solid yellow;   */
+    color:black;
+    margin-left:10px;
+    font-size:14px;
+    margin-top: 15px;
+
+
+}
+.order-icon-container {
+    width:26px;
+    height:18px;
+    margin-right:10px;
+    margin-top:15px;
+    
+
+}
+
+
+/* Final payment CSS */
+
+.final-payment-main-div {
+    /* border:9px solid black; */
+    width:360px;
+}
+.payment-head {
+    font-weight:600;
+
+}
+.final-flex-flex-payment {
+    /* border:1px solid brown; */
+    display:flex;
+    flex-direction: column;
+
+}
+
+.final-grand-total {
+    /* border:2px solid green; */
+    display:flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding-top:12px;
+    padding-left:20px;
+    padding-right:12px;
+    height:85px;
+}
+.final-payment-details-flex {
+    /* border:2px solid red; */
+    background-color: #F3F3F3;
+    padding-top:20px;
+    padding-left:22px;
+    padding-right:12px;
+    margin-bottom:18px;
+
+}
+.final-flex-payment {
+    /* border:2px solid blue; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:12px;
+}
+.final-address {
+    /* border:4px solid yellow; */
+    background-color: #FFFFFF;
+    padding-top:12px;
+    padding-left:22px;
+    padding-right:12px;
+    margin-bottom:18px;
+}
+.final-grand-total-text {
+    margin-bottom: 12px;
+    color:#818181
+}
+.final-payment-method-text {
+    margin-bottom :12px;
+    color:#818181
+
+}
+.final-bold-text {
+    font-weight: 600;
+}
+.final-text-ship {
+    margin-bottom:15px;
+}
+
+
+
+
+
+
+
+
