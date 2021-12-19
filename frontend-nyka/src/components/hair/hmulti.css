@@ -1,0 +1,24 @@
+.hslider_multi {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .hslider1 {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .hslider-images-slider1 {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  }
+  
+  .hslick-arrow::before,
+  .hslick-prev::after {
+    color: black;
+    background-color: #ffffff;
+  }
+  
+
+  
