@@ -19,8 +19,8 @@
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^1.1.2",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "set PORT= 3002 && react-scripts start",
