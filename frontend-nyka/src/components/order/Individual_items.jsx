@@ -1,21 +1,28 @@
 
 import "./order.css"
-function IndividualItems({data}) {
-let total = 1229
+function IndividualItems() {
+    let data = JSON.parse(localStorage.getItem("card"));
+
+    var total = 0;
+    var len = 0;
+
+
 
     return (
         <>
         
-        {data.map(e => 
+        { data.map((prod)=>(
+        total+= Number(prod.price),
+        len = data.length,
         <div className = "order-parent-container">
 
       
                  <div className = "order-children-container">
-                 <div className = "order-image-container"><img src = {e.product_image} />
+                 <div className = "order-image-container"><img src = {prod.product_image} />
                      
                  </div>
                  <div className = "order-name-container">
-                     <p>{e.product_name}</p>
+                     <p>{prod.product_name}</p>
  
                      <p>1200ml</p>
                      <p>Quantity: 1</p>
@@ -23,7 +30,7 @@ let total = 1229
  
                  </div>
                  <div className = "order-icon-container">
-                     {total}
+                     {prod.price}
                 
                 </div>
                
@@ -31,10 +38,10 @@ let total = 1229
             <hr/>
             </div>
             
-            )}
+            
             
 
-
+            ))}
             
         </>
     )

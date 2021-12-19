@@ -2,7 +2,7 @@ import {Container,Col,Row, Carousel} from "react-bootstrap"
 import "./hair.css"
 import {InputGroup,nav} from "react-bootstrap"
 // brands you will love
-
+import {Footer} from '../Homepage/Footer'
 import lorels1 from "./hair_page_photos/loreals1.png"
 import hair2 from "./hair_page_photos/hair2.png"
 import new3 from "./hair_page_photos/new3.png"
@@ -78,7 +78,7 @@ import dullness_dryness from "./hair_page_photos/dullness&dryness.png"
 import frizz from "./hair_page_photos/frizz.png"
 import dandruff from "./hair_page_photos/dandruff.png"
 import split_ends from "./hair_page_photos/split_ends.png"
-
+import {Navbar} from "../Homepage/Navbar"
 import MultipleItems from "./MultipleItems"
 
 
@@ -88,6 +88,7 @@ function Hairpage() {
 
     return (
         <>
+        <Navbar />
         <div className = "main-main-div">
 
           <MultipleItems/>
@@ -495,7 +496,7 @@ function Hairpage() {
 
        </div>
        
-      
+      <Footer />
 
         </>
     )

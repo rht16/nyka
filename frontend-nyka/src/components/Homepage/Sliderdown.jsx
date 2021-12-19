@@ -5,7 +5,7 @@ export const Sliderdown=()=>{
 
     return (
 <>
-<div style={{marginTop:"392px"}}>
+<div style={{marginTop:"35px"}}>
 
 <div className="sliderDown">
 <div style={{marginLeft:"150px"}}>

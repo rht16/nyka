@@ -33,7 +33,7 @@ export const Login_main = ()=>{
     return (
         <div className="container">
             <div className="first_box12">
-                <div className="first_box1">Login/Regiseter</div>
+                <div className="first_box1">Login/Register</div>
             </div>
             <div className="second_login">
                 <div className="second_login_box1">Login/Register</div>

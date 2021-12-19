@@ -17,7 +17,13 @@ display: flex;
    
 } */
 
-.next1 > button{
+.great{
+    margin-right: 131px;
+    width: 11px;
+    background: transparent;
+}
+
+.btn_checking_pay{
     
 position: absolute;
 width: 139px;

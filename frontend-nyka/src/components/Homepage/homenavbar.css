@@ -1,6 +1,5 @@
 .homeNavbar{
     width: 100%;
-  
     background-color:white;
     height: 80px;
     display: flex;
@@ -35,7 +34,6 @@
     justify-content: space-around;
     color: #282C3F;
     font-family:"Source Sans Pro", sans-serif;
-    
     align-items: center;
 }
 .navbarDivThreeInput{
@@ -51,7 +49,6 @@
     flex-direction: row;
     margin-left: 32px;
     border: 0.5px solid #8C8D94;
-
 }
 .navbarDivThreeImg{
     width: 31px;
@@ -59,8 +56,6 @@
     margin-top: 8px;
     padding-left: -2px;
     padding-right: 5px;
-  
-
 }
 .navbarDivThreeFlex{
     display: flex;
@@ -98,10 +93,8 @@
    display: block;
     display: flex;
     position:fixed;
-
     flex-direction: row;
 }
-
 .navbarMenProducts{
     /* width: 19px; */
     padding:8px 20px 10px 20px;
@@ -136,9 +129,9 @@
 }
 .navbarprodHrLine{
     margin:15px 20px 15px 20px;
-    color: #fbfeff;
+    color: #FBFEFF;
 }
 .navbarMenProdHeadingListHover div:hover{
     font-weight: bold;
-    color: #282c3f;
+    color: #282C3F;
 }

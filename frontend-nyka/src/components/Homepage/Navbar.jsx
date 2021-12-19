@@ -41,9 +41,11 @@ const Navbar = () => {
           <p className="get-app">Help</p>
         </div>
         <ul>
+          <Link to="/">
           <li>
             <img className="nykka" src="/nykka.svg" />
           </li>
+          </Link>
           <li>categroies</li>
           <li>Brands</li>
           <li>Nykaa fashion</li>
@@ -68,9 +70,11 @@ const Navbar = () => {
             <img src="/profile.svg" />
           </li>
           <p className="account">ACCOUNT</p>
+          <Link to="/login" style={{textDecoration: "none"}}>
           <div className="usercart">
             <img className="usercart2" src="/usercart.svg" onClick={(e)=>setShowResults(true)}/>
           </div>
+          </Link>
         </ul>
         <div className="lower-nav">
           <ul>
@@ -256,7 +260,9 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+            <Link to="/hair" style={{textDecoration: "none", color: '#818181'}}>
             <li>Hair</li>
+            </Link>
             <li>Appliances</li>
             <li>Personal Care</li>
             <li>Natural </li>
