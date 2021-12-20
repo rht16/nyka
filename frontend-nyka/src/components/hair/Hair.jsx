@@ -71,8 +71,9 @@ import kama from "./hair_page_photos/bestseller_kama_ayurveda.png"
 import forestessential from "./hair_page_photos/bestseller_forest_essential.png"
 import kiehel from "./hair_page_photos/best_seller_kiehel.png"
 import sebestian from "./hair_page_photos/bestseller_sebestian.png"
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 // carousel 2 => 
+
 import hairfall from "./hair_page_photos/hairfall_minimize_heat.png"
 import dullness_dryness from "./hair_page_photos/dullness&dryness.png"
 import frizz from "./hair_page_photos/frizz.png"
@@ -129,7 +130,7 @@ function Hairpage() {
         <h4 className = "mt-5 text-center">BRANDS YOU WILL LOVE</h4>
 
              
-                 <Container className = "mt-4">
+         <Container className = "mt-4">
                 
         <Row>
            
@@ -145,8 +146,12 @@ function Hairpage() {
                 <img src= {new3} className ="img-fluid" />
             </Col>
       </Row>
+        </Container>
+        <Container>
+
+       
             <Row className = "mt-4">
-        <Col sm = {6} md = {4} lg = {{span:4, offset: 2}}>
+        <Col sm = {6} md = {4} lg = {{span:4, offset: 3}}>
                 <img src= {photo4} className ="img-fluid" />
                 
             </Col>
@@ -155,12 +160,17 @@ function Hairpage() {
             </Col>
         
         </Row>
-        <Row className = "mt-5">
-            <Col sm = {6} md = {4} lg = {12} >
+        </Container>
+        <Container>
+
+        
+        <Row className = " hair-bann mt-5">
+            <Col sm = {12} md = {12} lg = {12} >
                 <img src = {hairbanner}  className = "img-fluid" /> 
             </Col>
         </Row>
         </Container>
+      
   
 
 
@@ -181,27 +191,27 @@ function Hairpage() {
           <img src={shampoo1} alt="category" />
         </div>
         <div>
-          <img src={haircombos} alt="category" />
+          <img src={cream_masks} alt="category" />
         </div>
 
         <div>
-          <img src={oils} alt="category" />
+          <img src={conditioners} alt="category" />
         </div>
         
         <div>
-          <img src={cream_masks} alt="category" />
+          <img src={oils} alt="category" />
         </div>
         <div>
-          <img src={appliances} alt="category" />
-        </div>
-        <div>
-          <img src={conditioners} alt="category" />
+          <img src={serums} alt="category" />
         </div>
         <div>
           <img src={colors} alt="category" />
         </div>
         <div>
-          <img src={serums} alt="category" />
+          <img src={appliances} alt="category" />
+        </div>
+        <div>
+          <img src={haircombos} alt="category" />
         </div>
       </div>
       
@@ -211,10 +221,12 @@ function Hairpage() {
 
       <div className = "shop_by_concern">
 
+      
+
 
 
       <Carousel  indicators = {false} variant = "dark" className = "mt-1 h-100">
-  <Carousel.Item variant = "dark" interval = {200000} >
+  <Carousel.Item variant = "dark" interval = {10000} >
     <img
       className="margiri"
       src={hairfall}
@@ -225,21 +237,29 @@ function Hairpage() {
       src={dullness_dryness}
       alt="First slide"
     />
-     <img
-      className="margiri"
-      src={frizz}
-      alt="First slide"
-    />
+     
     
    
   </Carousel.Item>
   
-  <Carousel.Item   interval = {200000}>
+  <Carousel.Item   interval = {20000}>
+
     <img
+      className="margiri"
+      src={frizz}
+      alt="First slide"
+    />
+     <img
       className="margiri"
       src={dandruff}
       alt="First slide"
     />
+    
+    
+   
+  </Carousel.Item>
+  <Carousel.Item   interval = {20000}>
+   
      <img
       className="margiri"
       src={split_ends}
@@ -283,7 +303,7 @@ function Hairpage() {
         <h4 className = "text-center mt-5">LUXE BRANDS</h4>
         <div className = "luxe-brands">
       <Carousel indicators = {false} variant = "dark" className = "mt-1 h-100">
-  <Carousel.Item   interval = {200000}>
+  <Carousel.Item   interval = {10000}>
     <img
       className="margiri"
       src={aveda}
@@ -339,11 +359,11 @@ function Hairpage() {
                 
             </Col>
               <Col sm = {6} md = {4} lg = {3}>
-                <img src= {haircare} className ="img-fluid" />
+                <img src= {hairmasks} className ="img-fluid" />
                 
             </Col>
               <Col sm = {6} md = {4} lg = {3}>
-                <img src= {hairmasks} className ="img-fluid" />
+                <img src= {haircare} className ="img-fluid" />
             </Col>
             <Col sm = {6} md = {4} lg = {3}>
                 <img src= {hairshampoo} className ="img-fluid" />
@@ -363,14 +383,14 @@ function Hairpage() {
                 
             </Col>
               <Col sm = {12} md = {6} lg = {2}>
-                <img src= {pantene} className="img-fluid" />
+                <img src= {streax} className="img-fluid" />
                 
             </Col>
               <Col sm = {12} md = {6} lg = {2}>
                 <img src= {ogx} className ="img-fluid" />
             </Col>
             <Col sm = {12} md = {6} lg = {2}>
-                <img src= {streax} className ="img-fluid" />
+                <img src= {pantene} className ="img-fluid" />
             </Col>
             <Col sm ={12} md = {6} lg = {2}>
                 <img src= {wishcare} className ="img-fluid" />
@@ -383,19 +403,19 @@ function Hairpage() {
         <Container className = "mt-4">
 
         <Row >
-            <Col sm = {12} md = {6} lg = {{span:2,offset:2}}>
-                <img src= {sp} className="img-fluid" />
-                
-            </Col>
-              <Col sm = {12} md = {6} lg = {2}>
+            <Col sm = {12} md = {6} lg = {{span:2,offset:3}}>
                 <img src= {blunt} className="img-fluid" />
                 
             </Col>
               <Col sm = {12} md = {6} lg = {2}>
-                <img src= {schwarkopf} className="img-fluid" />
+                <img src= {sp} className="img-fluid" />
+                
+            </Col>
+              <Col sm = {12} md = {6} lg = {2}>
+                <img src= {mamaearth} className="img-fluid" />
             </Col>
             <Col sm = {12} md = {6} lg = {2}>
-                <img src= {mamaearth} className="img-fluid" />
+                <img src= {schwarkopf} className="img-fluid" />
             </Col>
                 
 
@@ -413,14 +433,14 @@ function Hairpage() {
                 
             </Col>
               <Col sm = {12} md = {4} lg = {3}>
-                <img src= {oilyhair} className="img-fluid" />
+                <img src= {curlyhair} className="img-fluid" />
                 
             </Col>
               <Col sm = {12} md = {4} lg = {3}>
                 <img src= {finehair} className="img-fluid" />
             </Col>
             <Col sm = {12} md = {4} lg = {3}>
-                <img src= {curlyhair} className="img-fluid" />
+                <img src= {oilyhair} className="img-fluid" />
             </Col>
                 
 
@@ -439,44 +459,32 @@ function Hairpage() {
                 
             </Col>
               <Col sm = {12} md = {4} lg = {4}>
-                <img src= {consicousnykaa} className="img-fluid" />
+                <img src= {alluringhair} className="img-fluid" />
                 
             </Col>
               <Col sm = {12} md = {4} lg = {4}>
                 <img src= {professionalhair} className="img-fluid" />
             </Col>
             </Row>
+            </Container>
 
-            <Row className = "mt-4">
-
-            <Col sm = {12} md = {4} lg = {4}>
-               
-            </Col>
-
-            <Col sm = {12} md = {4} lg = {4}>
-                <img src= {alluringhair} className="img-fluid" />
-            </Col>
-
-            <Col sm = {12} md = {4} lg = {4}>
-               
-            </Col>
-            </Row>
-        </Container>
+        
+        
 
         <h4 className = "text-center mt-5">BEAUTY ADVICE</h4>
 
         <Container>
             <Row className = "mt-4">
-                <Col>
-                <img src = {waystocurlhair} className = "img-fluid" />
-
-                </Col>
-                <Col>
+                <Col  sm = {12} md = {4} lg = {4}>
                 <img src = {waystocontrolhairfall} className = "img-fluid" />
 
                 </Col>
-                <Col>
+                <Col  sm = {12} md = {4} lg = {4}>
                 <img src = {waystohealthyhair} className = "img-fluid" />
+
+                </Col>
+                <Col  sm = {12} md = {4} lg = {4}>
+                <img src = {waystocurlhair} className = "img-fluid" />
 
                 </Col>
             </Row>
@@ -484,7 +492,7 @@ function Hairpage() {
 
             <Container className = "mt-5">
                 <Row>
-                    <Col>
+                    <Col  sm = {12} md = {12} lg = {12}>
                     <img src = {hairbanner} className = "img-fluid" />
                     </Col>
                 </Row>
