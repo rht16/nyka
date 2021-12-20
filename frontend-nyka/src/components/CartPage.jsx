@@ -6,7 +6,8 @@ import easyreturn from "../components/Images/easyreturnpolicy.svg";
 import Rating from "./Rating";
 import locationImg from "../components/Images/locationnn.svg";
 import {Navbar} from "../components/Homepage/Navbar"
-import {ShoppingBag} from "./Shopping_bag/Shopping_bag"
+// import {ShoppingBag} from "./Shopping_bag/Shopping_bag"
+import {Footer} from "../components/Homepage/Footer"
 export const CartPage = () => {
   var getProduct = [];
   var details_from_local = []
@@ -94,6 +95,7 @@ const handleAddToCart = (data) => {
       <ProductDescription />
       <ProductDetails />
       {/* <ShoppingBag /> */}
+      <Footer/>
     </>
   );
 };

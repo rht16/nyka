@@ -26,21 +26,21 @@ const Navbar = () => {
           <p className="get-app">GET APP</p>
           <p className="line-nav"></p>
           <div className="nav">
-            <img src="/nav2.svg" alt="mobile app" />
+            <img src="/nav2.svg" style={{background:"pink"}}  alt="mobile app" />
           </div>
           <p className="get-app">Store & Events</p>
           <p className="line-nav"></p>
           <div className="nav">
-            <img src="/cart.svg" alt="mobile app" />
+            <img src="/cart.svg" style={{background:"pink"}}  alt="mobile app" />
           </div>
           <p className="get-app">Gift Card</p>
           <p className="line-nav"></p>
           <div className="nav">
-            <img src="/question.svg" alt="mobile app" />
+            <img src="/question.svg"  style={{background:"pink"}} alt="mobile app" />
           </div>
           <p className="get-app">Help</p>
         </div>
-        <ul>
+        <ul className="nykka-navbar">
           <Link to="/">
           <li>
             <img className="nykka" src="/nykka.svg" />

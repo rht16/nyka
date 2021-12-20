@@ -1,11 +1,11 @@
-.p_details {
+.p_deta {
     width: 276px;
     height: 420px;
     margin-top: 0px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
   }
   
-  .all_price {
+  .all_pri {
     width: 200px;
     display: flex;
     justify-content: space-around;
@@ -13,7 +13,7 @@
     margin: auto;
     margin-top: 15px;
   }
-  .prod_name {
+  .prod_nam {
     margin: auto;
     margin-top: 12px;
     width: 204px;
@@ -25,18 +25,18 @@
     font-family: Source Sans Pro;
   }
   
-  .mrp {
+  .mr {
     color: rgba(140, 141, 148, 1);
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
   }
-  .mrp > span {
+  .mr > span {
     text-decoration: line-through;
     color: rgba(140, 141, 148, 1);
     margin-left: 3px;
   }
   
-  .price_product {
+  .price_prod {
     margin-left: -3px;
     font-size: 400;
     font-weight: bold;
@@ -44,7 +44,7 @@
     margin-top: 0px;
   }
   
-  .features {
+  .feat{
     margin-left:-351px;
     margin-top: 4px;
     font-weight: 600;
@@ -54,24 +54,24 @@
     font-family: "Open Sans", sans-serif;
   }
   
-  .bar {
+  .ba {
     margin-top: -20px;
     color: #a7a7a7;
   }
-  .off {
+  .of {
     color: #fc2779;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 14px;
   }
   
-  .rating {
+  .ratin {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -12px;
   }
-  .rating > span {
+  .ratin > span {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;

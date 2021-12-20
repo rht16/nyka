@@ -4,27 +4,27 @@ import {React} from "react";
 import "./cartsliderCarasoul.css"
 export const CartsliderCarasoul=({product_image, product_title,real_price,price_product})=>{
     return (
-        <div className="p_details" >
-              <p className="features">FEATURED</p>
+        <div className="p_deta" >
+              <p className="feat">FEATURED</p>
               <img src={product_image} alt="" />
-              <div className="prod_name">
+              <div className="prod_nam">
                 <p>{ product_title}</p>
               </div>
-              <div className="all_price">
+              <div className="all_pri">
                 <div>
-                  <p className="mrp">
+                  <p className="mr">
                     MRP:<span>{real_price}</span>
                   </p>
                 </div>
                 <div>
-                  <p className="price_product">₹{price_product}</p>
+                  <p className="price_prod">₹{price_product}</p>
                 </div>
-                <div className="bar">|</div>
+                <div className="ba">|</div>
                 <div>
-                  <p className="off">25%</p>
+                  <p className="of">25%</p>
                 </div>
               </div>
-              <div className="rating">
+              <div className="ratin">
                 {/* <Rating /> */}
                 <span></span>
               </div>

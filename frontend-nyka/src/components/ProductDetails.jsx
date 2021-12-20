@@ -4,27 +4,17 @@ export const ProductDetails = () => {
   return (
     <>
       <div className="product-rating">
-        <img src="" alt="ratingreviews" />
+        <img src="/RATINGS & REVIEWS.svg" alt="ratingreviews" />
         <p>product q&a</p>
       </div>
       <div className="ratingDetails">
-        <p className="bold-rating">4.4</p>
-        <span>
-          <p className="bold-rating-1">/5</p>
-        </span>
-        <p className="overall-rating">Overall Rating </p>
-        <p className="verified-ratings">18713 verified ratings</p>
-        <div className="rating-line"></div>
-        <p className="reward-points">Write a review an win 100 reward points</p>
-        <button className="write-review">Write Review</button>
+      <img src="/Frame 327.svg" alt="rating-details"/>
       </div>
       <div className="ratingDetails">
-        <p className="customersphoto">photos from customers</p>
-        <div></div>
+       <img src="/Frame 326.svg" alt="customer-rating"/>
       </div>
       <div className="customerRating">
-        <p className="review">most useful review</p>
-        <RatingCard />
+      <img src="/Frame 387.svg" alt ="customer-rating"/>
       </div>
     </>
   );

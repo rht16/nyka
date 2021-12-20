@@ -40,7 +40,7 @@
   color: #3F414D;
 }
 .line-nav {
-  width: 0px;
+  
   height: 16px;
   margin-top: 10px;
   border: 1px solid #3F414D;
@@ -48,11 +48,14 @@
 }
 .nav {
   margin-left: 20px;
+  /* style={{background:"pink"}} */
+
+  /* background:pink; */
 }
 .middle-navbar {
   display: flex;
 }
-ul {
+.nykka-navbar {
   display: flex;
   list-style: none;
   font-family: "Source Sans Pro", sans-serif;
@@ -63,7 +66,25 @@ ul {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  margin-top:16px;
+  /* margin-top:16px; */
+  margin-top: 18px
+}
+.nykka-navbar >li {
+  margin-left: 32px;
+ }
+ ul {
+  display: flex;
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  /* margin-top:16px; */
+  margin-top: 18px
 }
 ul li {
   margin-left: 32px;

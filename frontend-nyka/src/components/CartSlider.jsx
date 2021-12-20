@@ -6,7 +6,7 @@ import {CartsliderCarasoul} from "./CartsliderCarasoul"
 
 import "./cartslider.css";
 
-export default class Cartslider extends Component {
+export default class CartSlider extends Component {
   render() {
     var settings = {
       dots: false,
@@ -44,7 +44,7 @@ export default class Cartslider extends Component {
       ],
     };
     return (
-      <div>
+      <div style={{marginLeft:"120px"}}>
         <Slider {...settings} className="mainslider">
           <div className="slider-1">
             <div className="sliderImage">
