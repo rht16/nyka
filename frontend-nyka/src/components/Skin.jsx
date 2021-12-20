@@ -52,7 +52,7 @@ import beauty1 from "./Images/beauty1.svg";
 import beauty2 from "./Images/beauty2.svg";
 import beauty3 from "./Images/beauty3.svg";
 import {Navbar} from "../components/Homepage/Navbar"
-
+import {Footer} from "../components/Homepage/Footer"
 function Skin() {
   var settings = {
     dots: true,
@@ -278,6 +278,7 @@ function Skin() {
       <div className="allskin">
         <img src={allskin} alt="skin" />
       </div>
+      <Footer />
     </div>
   );
 }

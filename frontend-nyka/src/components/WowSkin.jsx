@@ -12,7 +12,7 @@ import pageinfo from "../components/Images/pagination.svg";
 import wishlistImg from "../components/Images/wishlist.svg";
 import {Navbar} from "../components/Homepage/Navbar"
 
-
+import {Footer} from "../components/Homepage/Footer"
 
 function WowSkin() {
   const [isTrue, setIstrue] = useState(false);
@@ -132,6 +132,7 @@ function WowSkin() {
           <img src={pageinfo} alt="" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
