@@ -20,14 +20,16 @@ function App() {
     <div>
       <UserAuthContextProvider>
         <Routes>
-          <Route
+          {/* <Route
             path="/login"
             element={
               <ProtectedRoute>
                 <Login />
               </ProtectedRoute>
             }
-          />
+          /> */}
+
+          <Route path="/login"><Login /></Route>
           <Route path="/" element={<Home />} />
           <Route path="/hair" element={<Hairpage />} />
           <Route path="/payment" element={<Payment />} />
