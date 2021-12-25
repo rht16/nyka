@@ -39,8 +39,8 @@
     grid-template-columns: 19% 19% 19% 19%;
     justify-content: center;
     gap:5.5%;
-    margin-left:6%;
-    margin-right:7%;
+    
+    margin:auto;
     margin-top: 25px;
     
   }
@@ -71,6 +71,8 @@
   }
   .margiri {
     margin-right:2%;
+    margin-left:2%;
+
   }
 
   .luxe-brands {
@@ -82,3 +84,26 @@
   .luxe-brands img {
     width:42%;
   }
+.fw-600 {
+  font-weight:600;
+  padding-top:10px;
+  padding-bottom:30px;
+}
+.box-sha {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  
+}
+.marg-a r{
+  margin:auto;
+}
+body {
+  text-align:center;
+
+}
+
+#body {
+  margin:0px auto;
+  text-align:left;
+  width:98%;
+}
